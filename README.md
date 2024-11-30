@@ -11,7 +11,7 @@ SignEcho is an innovative project aimed at bridging the communication gap for in
 
 ## Technologies Used
 
-- **Programming Languages**: Python, JavaScript
+- **Programming Languages**: Python
 - **Libraries and Frameworks**:
   - TensorFlow
   - OpenCV
@@ -37,9 +37,31 @@ cd SignEcho--Sign-Language-Recognition-and-Propagation
 
 ## Usage
 
-1. Run the gui.py file.
+1. Run the `gui.py` file.
 2. Use a webcam to make sign language in front of the camera.
 3. The system will recognize the gesture and display the corresponding text or speech output.
+
+## Steps to Create a Model Using User-Collected Images
+
+### 1. Collect Images
+- Capture multiple images of each gesture you want the model to recognize.
+- Ensure diversity in lighting, background, and angles for better model accuracy.
+- Save the images in separate folders corresponding to each alphabet.
+
+### 2. Create a Dataset
+- Organize the collected images into a structured dataset by running `create_dataset.py` file.
+
+### 3. Train the Model
+- Train your model using Random Forest Classifier.
+- Split your dataset into training and testing sets (e.g., 80% training, 20% testing).
+- Train the model using your labeled dataset and evaluate its performance on the testing set.
+
+### 4. Test the Model
+- Validate the model's accuracy and make adjustments if necessary.
+- Test the model with real-time sign language to ensure it performs as expected.
+
+### 5. Run the GUI
+- Run the `gui.py` file.
 
 ---
 
