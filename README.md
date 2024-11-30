@@ -4,55 +4,45 @@ SignEcho is an innovative project aimed at bridging the communication gap for in
 
 ## Features
 
-Sign Language Recognition: Detects and interprets various sign language gestures using machine learning.
-Text and Speech Output: Converts recognized gestures into readable text or audible speech.
-User-Friendly Interface: Designed for accessibility and ease of use.
-Extensible Framework: Supports the addition of new gestures and languages.
-Real-Time Performance: Processes inputs quickly for smooth user experience.
+- **Sign Language Recognition**: Detects and interprets various sign language gestures using machine learning.
+- **Text and Speech Output**: Converts recognized gestures into readable text or audible speech.
+- **Extensible Framework**: Supports the addition of new gestures and languages.
+- **Real-Time Performance**: Processes inputs quickly for a smooth user experience.
 
 ## Technologies Used
 
-Programming Languages: Python, JavaScript
-Libraries and Frameworks: TensorFlow, OpenCV, Flask, React.js
-Hardware: Webcam or any video input device for gesture detection
-Others: Pre-trained models for gesture recognition
+- **Programming Languages**: Python, JavaScript
+- **Libraries and Frameworks**:
+  - TensorFlow
+  - OpenCV
+  - Tkinter
+- **Hardware**: Webcam or any video input device for gesture detection
+- **Others**: Pre-trained models for gesture recognition
 
 ## Installation Prerequisites
 
 Ensure you have the following installed on your system:
-Python 3.7 or later
-Node.js and npm
-pip (Python package manager)
+
+- Python 3.7 or later
+- pip (Python package manager)
 
 ## Steps
 
-### Clone the repository:
+### Clone the Repository
 
+```bash
 git clone https://github.com/LovitraMehta/SignEcho--Sign-Language-Recognition-and-Propagation.git
 cd SignEcho--Sign-Language-Recognition-and-Propagation
-
-### Install Python dependencies:
-
-pip install -r requirements.txt
-
-### Install frontend dependencies:
-
-cd frontend
-npm install
-
-### Run the application:
-
-### Start the backend server:
-
-python app.py
-
-### Start the frontend:
-
-cd frontend
-npm start
+```
 
 ## Usage
 
-Open the application in your web browser (usually at http://localhost:3000).
-Use a webcam to make gestures in front of the camera.
-The system will recognize the gesture and display the corresponding text or speech output.
+1. Run the gui.py file.
+2. Use a webcam to make sign language in front of the camera.
+3. The system will recognize the gesture and display the corresponding text or speech output.
+
+---
+
+Feel free to contribute to this project and help make communication more inclusive for everyone!
+
+
