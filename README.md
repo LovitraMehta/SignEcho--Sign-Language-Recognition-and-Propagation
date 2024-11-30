@@ -44,7 +44,7 @@ cd SignEcho--Sign-Language-Recognition-and-Propagation
 ## Steps to Create a Model Using User-Collected Images
 
 ### 1. Collect Images
-- Capture multiple images of each gesture you want the model to recognize.
+- Capture multiple images of each alphabet you want the model to recognize using `collect_images.py` file.
 - Ensure diversity in lighting, background, and angles for better model accuracy.
 - Save the images in separate folders corresponding to each alphabet.
 
